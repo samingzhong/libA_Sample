@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-libA_Sample/Pods-libA_Sample-frameworks.sh
+${BUILT_PRODUCTS_DIR}/LibA/LibA.framework
+${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework

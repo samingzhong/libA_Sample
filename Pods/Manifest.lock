@@ -1,0 +1,23 @@
+PODS:
+  - LibA (1.0.0):
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - LibA (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  LibA:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LibA: fa32f21b3a0481cdf1bdf704e4fb6a519c800ccc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: bdffbbb3849320a1d41b48bc20efed680782117a
+
+COCOAPODS: 1.11.2

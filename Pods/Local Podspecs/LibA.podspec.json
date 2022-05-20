@@ -1,0 +1,31 @@
+{
+  "name": "LibA",
+  "version": "1.0.0",
+  "license": {
+    "type": "Copyright",
+    "text": "Copyright © 2016 ruqichuxing. All rights reserved."
+  },
+  "summary": "出行项目iOS基础组件",
+  "homepage": "http://www.gnu.org/licenses/",
+  "description": "出行项目iOS基础组件，提供乘客端、司机端公用的组件",
+  "authors": {
+    "ruqi": "ruqi.com"
+  },
+  "source": {
+    "git": "http://gitlab.ruqimobility.local/ios_lib/common.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "libraries": "c++",
+  "source_files": [
+    "LibA/Classes/LibA.h",
+    "LibA/Classes/*.{h,m}"
+  ],
+  "dependencies": {
+    "Masonry": [
+
+    ]
+  }
+}
