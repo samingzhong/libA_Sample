@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		051E45A44E6B6C4E43F2812A329FE7CB /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 607937A372913475EE7EAE532760ACD4 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		068F724F6FD2237E9BDB3B0AADAC7766 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 837834476F3329FA118B081516D4FC28 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0896F8972837513E005D1BF5 /* LibAClassC.h in Headers */ = {isa = PBXBuildFile; fileRef = 0896F8952837513E005D1BF5 /* LibAClassC.h */; };
+		0896F8982837513E005D1BF5 /* LibAClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0896F8962837513E005D1BF5 /* LibAClassC.m */; };
 		158486466F000C7CF56522A6D8419694 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = EDA8A3885BC33F25CB32442EB2449111 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1878D63B1CB5DAFB78329EE0EDE05E47 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A85AE9E36F67A1B513CB8DA940771B4F /* Masonry-dummy.m */; };
 		1C031C80C4B76E7881AF7E2B046145C5 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -80,6 +82,8 @@
 		02CA69FDFD4D7BB11F8E3E2E7A0B9879 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		047EE388CF208BD5F57049BD98558C94 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		071EEE0A3CE36E163E09EA7F7915F1DE /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0896F8952837513E005D1BF5 /* LibAClassC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LibAClassC.h; path = LibA/Classes/LibAClassC.h; sourceTree = "<group>"; };
+		0896F8962837513E005D1BF5 /* LibAClassC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LibAClassC.m; path = LibA/Classes/LibAClassC.m; sourceTree = "<group>"; };
 		0AB3DCE0283691BB009DDA9B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		15845A073243DC05FC6D8904ADCBDA3B /* Pods-libA_Sample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-libA_Sample"; path = Pods_libA_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FFED36A657123030ABB700256D73F15 /* Masonry */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				A73D21F427E50207D12C82C71FCAA92D /* ClassA.h */,
+				0896F8952837513E005D1BF5 /* LibAClassC.h */,
+				0896F8962837513E005D1BF5 /* LibAClassC.m */,
 				00155DEC49A3DFCF5FBF6BA7BC810FEB /* ClassA.m */,
 				7D38E79689189EAFC487FF85F2226C61 /* ClassB.h */,
 				F6BE13316E20603DE0A1F662BE8A48E2 /* ClassB.m */,
@@ -378,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BA306D4766B040004114327190130AA /* ClassA.h in Headers */,
+				0896F8972837513E005D1BF5 /* LibAClassC.h in Headers */,
 				F2D1B8E6F8BAED0B1F1EE8BBEE5B41EB /* ClassB.h in Headers */,
 				9A1A3155FBA60EA5B5A2B67B6B94A79F /* CustomViewA.h in Headers */,
 				EAC9A32C575BC37970B7D01BD13B95CD /* LibA.h in Headers */,
@@ -532,6 +539,7 @@
 				76520F0B92F2462435EE56BD2AD030A6 /* ClassA.m in Sources */,
 				F607A926E8C77FEC13C109EA7631F7BD /* ClassB.m in Sources */,
 				6669CA01A6D5A77B1E55A045B4CB92F0 /* CustomViewA.m in Sources */,
+				0896F8982837513E005D1BF5 /* LibAClassC.m in Sources */,
 				809B51853865FCF846ED8EBDBCF8B24D /* LibA-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
