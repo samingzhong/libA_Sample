@@ -38,8 +38,6 @@
     
     
     CustomViewA *view = [[CustomViewA alloc] initWithFrame:CGRectMake(100, 10, 300, 100)];
-    view.layer.cornerRadius = 20;
-    view.layer.masksToBounds = YES;
     // 数据回调。另外可以借助RAC的对象监听进行数据同步。
     view.modelInfoChangeCallback = ^(CustomViewAModel * _Nonnull modelInfo) {
         self.titleLabel.text = modelInfo.title;
